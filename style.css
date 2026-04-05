@@ -1,0 +1,133 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Dark Gradient Navbar */
+.bg-music-player{
+    background: linear-gradient(90deg, #1a0033, #2b0a4a, #3d0f5f);
+    padding: 10px 20px;
+}
+
+/* Brand */
+.navbar-brand{
+    color: #ff66cc;
+    font-weight: bold;
+    font-size: 22px;
+}
+.navbar-brand:hover{
+    color: #ff66cc;
+}
+
+/* Nav Links */
+.nav-link{
+    color: #ddd;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #ff66cc;
+}
+
+/* Active link style */
+.nav-link:hover{
+    background: #ff66cc;
+    color: white !important;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+   background: linear-gradient(90deg, #1a0033, #481577, #1e0f29);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   
+}
+.container{
+    min-height: 72vh;
+    display: flex; /* IMPORTANT */
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background: linear-gradient(90deg, #1a0033, #481577, #1e0f29);
+    color: white;
+    width: 70%;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 13px auto;
+
+    background-image: url("image3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Left side */
+.songlist{
+    width: 65%;
+}
+
+/* Right side */
+.songbanner{
+    width: 30%;
+}
+
+/* Song item row */
+.songitem{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+    color: black;
+
+    padding: 0 15px;
+    margin: 12px 0;
+    border-radius: 10px;
+}
+
+/* Image */
+.songitem img{
+    width: 45px;
+    border-radius: 10px;
+}
+
+/* Song name */
+.songname{
+    flex: 1;
+    margin-left: 15px;
+}
+
+/* Time + icon */
+.timestamp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Icon */
+.timestamp i{
+    cursor: pointer;
+    color: #6a0dad;
+}
+.songitemcontainer{
+    margin-top: 34px;
+}
+#myprogressbar{
+    width: 70%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 10px;
+     cursor: pointer;
+}
